@@ -1,0 +1,11 @@
+name = input(" name: ")
+last_name = input(" last name: ")
+age = input(" age: ")
+country = input(" country: ")
+city = input(" city: ")
+favorite_color =input(" favorite color: ")
+favorite_car =input(" favorite car: ")
+favorite_food =input(" favorite food: ")
+favorite_sport =input(" favorite sport: ")
+
+print(name,last_name,age,country,city,favorite_color,favorite_car,favorite_food,favorite_sport)
