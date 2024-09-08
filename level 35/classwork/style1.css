@@ -1,0 +1,98 @@
+.nodiko{
+    font-family: Arial;
+    
+    margin-right: 10px;
+    
+    }
+    
+    
+    .nodiko1{
+        font-family: Arial;
+        margin-top: 27px;
+        margin-right: 10px;
+        position: relative;
+        
+        }
+    
+    .nodiko2{
+    font-family: Arial;
+    margin-top: 25px;
+    margin-right: 10px;
+            }
+    
+    
+            
+    
+        
+    
+    
+    li{
+    display: flex;
+    float: left;
+    animation-name: nodiko1;
+animation-duration: 3s;
+    
+    
+    }
+    
+    
+    
+    img{
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 70px;
+        border: solid;
+        right: 480px;
+        animation-name: nodiko;
+animation-duration: 3s;
+        
+       
+    }
+    
+    
+    
+    
+    button{
+    position: relative;
+    top: 70px;
+    border-radius: 10px;
+    border: solid;
+    width: 100px;
+    background: linear-gradient(hsl(0, 100%, 50%),hsl(240, 100%, 50%));
+    
+    background-color: red;
+
+    cursor: pointer;
+    animation-name: nodiko2;
+animation-duration: 2s;
+    
+    
+    
+    }
+
+    button:hover{
+        transition: 1s ease-in-out;
+        background: hsla(0, 0%, 0%, 0.404);
+    }
+    
+    
+    
+    
+    
+    
+    @keyframes nodiko{
+        from{transform: translateX(10000px);}
+    }
+    
+    
+    @keyframes nodiko1{
+        from{transform: translateY(-1000px);}
+    }
+    
+    @keyframes nodiko2{
+        from{transform: translateX(-1000px);}
+    }
+    
+    
