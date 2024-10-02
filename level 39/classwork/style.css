@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+button{
+position: relative;
+width: 150px;
+height: 30px;
+background-color: rgb(0, 0, 0);
+border: none;
+border-radius: 10px;
+top: 300px;
+color: white;
+
+}
+
+button::after{
+    content: '';
+    position: absolute;
+    width: 160px;
+height: 40px;
+border: none;
+border-radius: 10px;
+background:conic-gradient(rgb(255, 0, 0),#00ff0d,rgb(38, 0, 255),rgb(255, 0, 0)) ;
+z-index: -1;
+
+
+bottom:-5px ;
+right: -5px;
+
+}
+
+
+button:hover::after{
+    
+    filter:blur( 1.5rem);
+    opacity: 0.5rem;
+}
+
+button:hover{
+    background:conic-gradient(rgb(255, 0, 0),#00ff0d,rgb(38, 0, 255),rgb(255, 0, 0)) ;
+ 
+}
