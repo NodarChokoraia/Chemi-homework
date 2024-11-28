@@ -1,0 +1,35 @@
+div{
+    width: 200px;
+    height: 200px;
+
+}
+
+.div1{
+    background-color: blue;
+}
+
+.div2{
+    background-color: red;
+}
+
+.div3{
+    background-color: green;
+}
+
+
+
+.div1:hover{
+    transform: translateX(100px);
+    transform: translateY(-100px);
+}
+
+
+.div2:hover{
+    transform: translateX(200px);
+    transform: translateY(200px);
+}
+
+.div3:hover{
+    transform: translateX(300px);
+    transform: translateY(-100px);
+}
