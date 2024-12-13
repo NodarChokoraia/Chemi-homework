@@ -1,0 +1,51 @@
+*{
+    margin: 50px;
+    padding: 0;
+}
+
+:root{
+    --color:rgb(255, 0, 0);
+    --back:orange;
+    --fontsize:20px;
+    --font:"Roboto";
+    --box:10px,0px,10px black;
+    --margin:20px;
+    --padding:10px;
+    --posicion:reletive;
+    --border:1px solid black;
+    --radius:10px;
+}
+
+
+.div1{
+    color:var(--color);
+    background-color: var(--back);
+    font-size: var(--fontsize);
+    font-family: var(--font);
+    box-shadow: var(--box);
+    border-radius: var(--radius);
+    border: var(--border);
+    margin: var(--margin);
+    padding: var(--padding);
+    position: var(--posicion);
+
+
+
+
+
+
+}
+
+.div2{
+    color:var(--color);
+    background-color: var(--back);
+    font-size: var(--fontsize);
+    font-family: var(--font);
+    box-shadow: var(--box);
+    border-radius: var(--radius);
+    border: var(--border);
+    margin: var(--margin);
+    padding: var(--padding);
+    position: var(--posicion);
+    
+}

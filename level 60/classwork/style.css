@@ -1,0 +1,50 @@
+*{
+    margin: 20px;
+}
+
+div{
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #92b901;
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    animation-name: anim;
+    animation-duration: 5s;
+
+}
+
+.div1{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #92b901;
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    background: url(compatible_chrome.png);
+    background-size: cover;
+    animation-name: anim2;
+    animation-duration: 5s;
+
+}
+
+@keyframes anim{
+    20%{transform: rotate(35deg); }
+    50%{transform: translateX(200px) rotate(360deg); background-color: aqua; }
+    
+}
+
+@keyframes anim2{
+    20%{transform: rotate(35deg); }
+    50%{transform: translateX(200px) rotate(360deg);background: url(compatible_edge\ \(1\).png) ;  background-size: cover;}
+    
+}
+
+
+
+
+

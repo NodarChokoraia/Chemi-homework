@@ -1,0 +1,63 @@
+*{
+    margin: 50px;
+    padding: 0;
+}
+
+
+div{
+    cursor: pointer;
+}
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  2s all linear;
+
+}
+
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  2s all linear;
+}
+
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  2s all linear;
+}
+
+
+
+
+.div1:hover{
+    transform: rotate(280deg);
+    background-color: brown;
+}
+
+
+.div2:hover{
+    width: 450px;
+}
+
+
+.div3:hover{
+   transform: translateX(100px) translateY(-50px)   ;
+}
