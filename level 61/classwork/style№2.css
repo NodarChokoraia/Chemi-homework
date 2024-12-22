@@ -28,7 +28,8 @@
     margin: var(--margin);
     padding: var(--padding);
     position: var(--posicion);
-
+    min-width: 100px;
+    max-width: 200px;
 
 
 

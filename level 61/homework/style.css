@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.p1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: all1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+.p1:hover{
+    animation-name: p1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    
+}
+
+
+@keyframes p1{
+    50%{transform: translateX(100px);}
+    
+
+}
+.but1{
+    animation-name: all1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+
+
+.but1:hover{
+    animation-name: but1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+
+@keyframes but1{
+    50%{transform:rotate(145deg);}
+    
+
+}
+.img1{
+    width: 50%;
+    animation-name: all1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+.img1:hover{
+    animation-name: img1;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+
+@keyframes img1{
+    50%{transform:scale(2);}
+    
+
+}
+
+@keyframes all1{
+    from{transform: translateX(-500px);}
+    
+    
+
+}
