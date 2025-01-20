@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.div1:hover{
+    animation-name: anim1;
+    animation-duration: 5s;
+}
+
+.div2:hover{
+    animation-name: anim2;
+    animation-duration: 5s;
+}
+
+
+@keyframes anim1{
+100%{width: 300px;}
+
+}
+
+@keyframes anim2{
+    
+    25%{
+        transform: translateX(200px);
+        
+    }
+
+    50%{
+        transform: translateY(200px);
+        
+    }
+
+
+    75%{
+        transform: translateX(-200px);
+        
+    }
+
+
+
+
+    100%{
+        transform:translateY(200px);
+        
+   
+    }
+
+    
+    }
+

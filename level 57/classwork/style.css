@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    background-color: red;
+    transform: translateX(200px) translateY(200px);
+}
+.div2{
+    background-color: blue;
+    transform: translateX(300px) translateY(300px);
+}
+.div3{
+    background-color: green;
+    transform: translateX(400px) translateY(400px);
+}
+.div4{
+    background-color:cornflowerblue ;
+    transform: translateX(500px) translateY(500px);
+}
