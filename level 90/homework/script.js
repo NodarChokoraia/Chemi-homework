@@ -1,0 +1,11 @@
+let res = [1,'2',true,false,10.0,50,'nodiko',false,true,90.0,];
+console.log(res[0]);
+console.log(res[1]);
+console.log(res[2]);
+console.log(res[3]);
+console.log(res[4]);
+res[9] = 'ნოდიკო';
+res[8] = 50;
+res[7] = true;
+res[6] = false;
+res[5] = 40;

@@ -30,7 +30,7 @@ let daviti = {
 }
 console.log(academy);
 
-console.log(Object.key(academy));
+console.log(Object.keys(academy));
 
 console.log(Object.values(academy));
 
