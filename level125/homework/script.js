@@ -126,6 +126,7 @@ let intersection2 = (arr1,arr2) => {
 console.log(intersection2([1,2,3,4,5,6],[1,4,6,8,9,3]));
 let remove = (arr1) => {
     let funcset1 = new Set([...arr1.flat(Infinity)])
+    funcset1
     return funcset1
 }
 console.log(remove([[1, 2], [2, 3], [1, 2]]));
