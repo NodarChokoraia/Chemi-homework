@@ -1,6 +1,5 @@
 //1
-let users = `
-    [
+let users = `[
         {
             "name":"sara",
             "rank":1,
@@ -101,3 +100,5 @@ praseuser2.forEach(valuse=>{
 })
 
 //3
+
+
