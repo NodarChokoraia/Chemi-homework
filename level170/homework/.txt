@@ -1,0 +1,5 @@
+<div classname='w-20 sm:w-50'></div>
+<div classname='w-20 sm:bg-blue-500'></div>
+<div classname='w-20 sm:rounded-full'></div>
+<div classname='w-20 sm:h-50'></div>
+<div classname='w-20 sm:bg-red-600'></div>

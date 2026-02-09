@@ -1,0 +1,4 @@
+flex - display:flex;
+flex-col,flex-row:flex-direction:row;,flex-direction:column;
+items-center:align-items:center;
+justify-center:justify-content:center;

@@ -1,0 +1,3 @@
+tailwind - css libary
+tailwind - for shorter code
+tailwind - short and easyer coe to write

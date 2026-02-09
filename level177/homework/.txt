@@ -1,0 +1,7 @@
+hook is react methods so it makes easyer to work with react 
+hook was created bc we they wanted to make easyer to work with react
+excample when we can to transfer data from one component to other components variable
+usestate is variable changer so we can change variable and store variable value
+let [input,setInput] = usestate('first value')
+
+let [count,setCount] = usestate(0)
